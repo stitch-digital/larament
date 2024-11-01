@@ -79,17 +79,17 @@ php artisan key:generate
 You can also use the following command to create a new project with Larament.
 
 ```bash
-composer create-project --prefer-dist CodeWithDennis/larament example-app
+composer create-project --prefer-dist stitch-digital/larament example-app
 ```
 
 If you don't want to remember the composer installation syntax for future projects, you can create an alias for your terminal:
 
 ```bash
-alias larament="composer create-project --prefer-dist CodeWithDennis/larament"
+alias larament="composer create-project --prefer-dist stitch-digital/larament"
 ```
 
-This allows you to simply use `larament my-cool-app` in your terminal.
+This allows you to simply use `larament new-app` in your terminal.
 
 ```bash
-larament my-cool-app
+larament new-app
 ```
